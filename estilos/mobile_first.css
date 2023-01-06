@@ -106,6 +106,7 @@ p{
     transform: translate(0%, -50%);
     background-color: #94cfcd;
     border: none;
+    text-align: center;
 
 }
 
@@ -116,6 +117,7 @@ background-color: white;
 
 #isenha:focus-within{
     background-color: white;
+    
     
     }
 
