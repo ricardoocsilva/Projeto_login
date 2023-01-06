@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+/*Typical Device BreakPoints
+
+Tela pequena: largura de até 768px
+Telas médias: largura  768px - 991px
+
+
+*/
+
+
+/*Telas médias*/
+@media screen and (min-width: 768px) and (max-width: 991px){
+    
+    html, body{
+        background-image: -moz-linear-gradient(-90deg, #5e2c82, #499e9c);
+    }
+    
+    #geral{
+        position: relative;
+       width: 90%;
+       height: 250px;
+       margin-left: 10%;
+    }
+    
+    #img{
+        display: inline-block;
+        width: 30%;
+        height: 250px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 20px;
+    }
+    
+    #login{
+        display: inline-block;
+        position: absolute;
+        right: 0%;
+        height: 250px;
+        width: 70%;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    
+    h1{
+        padding-top: 5px;
+        font-size: 1.8em;}
+    
+    p{
+        padding: 6px;
+        margin: auto;
+        font-size: 0.8em;
+        font-weight: 400;
+    }
+    
+    .campos{
+        position: relative;
+        background-color: #5f2c82;
+        margin: auto;
+        margin-bottom: 5px;
+        border-radius: 8px;
+        height: 35px;
+        width: 93%;
+    }
+    
+    #icone_pessoa{
+        color: white;
+        position: absolute;
+        top: 71%;
+        right: 96%;
+        transform: translate(50%, -50%);
+        scale: 1.6;
+    }
+    
+    #icone_chave{
+        color: white;
+        position: absolute;
+        top: 63%;
+        right: 95%;
+        transform: translate(50%, -50%);
+        scale: 1.4;
+    }
+    
+    #iemail, #isenha{
+        height: 30px;
+        width: 88%;
+        right: 2px;
+        transform: translate(0%, -50%);
+        background-color: #94cfcd;
+        border: none;
+        text-align: center;
+        font-size: 1.2em;
+    }
+        
+    #entrar, #esqueci{
+        height: 34px;
+    }
+    
+    #esqueci{
+        background-color: white;
+        color: #306361;
+        border: 1px solid #53aaa7;
+    }
+    
+}
+
+/*Telas grandes*/
+@media screen and (min-width: 991px){
+    html, body{
+        background-image: -moz-linear-gradient(-90deg, #5d3183, #499e9c);
+    }
+    
+}
